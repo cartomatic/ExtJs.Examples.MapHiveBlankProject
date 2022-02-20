@@ -17,10 +17,10 @@
 
         controller: 'main',
 
-        //remove app switcher for the time being - no other apps for trajan!
+        //remove app switcher for the time being - no other apps for blank project!
         appSwitcher: null,
 
-        //remove org ctx switcher - does not make sense for trajan dashboard
+        //remove org ctx switcher - does not make sense for blank project dashboard
         orgContextSwitcher: null,
 
         //reload instead of trying to redirect to a default app

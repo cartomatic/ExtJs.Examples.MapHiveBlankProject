@@ -32,7 +32,7 @@ Ext.define('BlankProject.Application', {
     appShortName: 'blank-project',
 
     //here goes a custom app launcher class. If not overridden, it will default to mh.AppLauncher
-    //Note: in this case TrajanDashboard.AppLauncher just inherits from mh.AppLauncher and is used instead
+    //Note: in this case BlankProject.AppLauncher just inherits from mh.AppLauncher and is used instead
     appLauncher: 'BlankProject.AppLauncher',
 
     init: function(){

@@ -17,25 +17,10 @@
     //customise and add endpoints as required
     __mhcfg__.apiEndPoints = {
         authApi: {
-            dev: 'https://localhost:5003/auth/',
-            production: 'https://trajan-mh-core-api.maphive.net/auth/',
-            test: 'https://trajan-mh-core-api-test.maphive.net/auth/'
-            //token: ''
+            dev: 'https://localhost:5003/auth/'
         },
         coreApi: {
-            dev: 'https://localhost:5003/',
-            production: 'https://trajan-mh-core-api.maphive.net/',
-            test: 'https://trajan-mh-core-api-test.maphive.net/'
-        },
-        trajanDashboardApi: {
-            dev: 'https://localhost:5005/',
-            production: 'https://trajan-dashboard-api.maphive.net/',
-            test: 'https://trajan-dashboard-api-test.maphive.net/'
-        },
-        trajanDashboardDataServiceApi: {
-            dev: 'https://localhost:5007/',
-            production: 'https://trajan-dashboard-data-service-api.maphive.net/',
-            test: 'https://trajan-dashboard-data-service-api-test.maphive.net/'
+            dev: 'https://localhost:5003/'
         }
     };
 
@@ -47,7 +32,7 @@
 
     //namespaces to get the localization for
     __mhcfg__.namespacesToLocalize = [
-        'mh', 'TrajanDashboard'
+        'mh'
     ];
 
     //total header to extract total dataset counts when reading lists

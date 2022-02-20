@@ -20,7 +20,7 @@
             //intercept main view items created, so can verify them an observe specific events!
             this.watchGlobal('mainview::itemcreated', this.onMainViewItemCreated, this);
 
-            //insert trajan logo btn as the first item...
+            //insert logo btn as the first item...
             this.getView().getLbar().insert(0, {
                 xtype: 'button',
 
